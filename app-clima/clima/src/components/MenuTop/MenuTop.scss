@@ -1,0 +1,46 @@
+/**
+ * The other theme for this menu
+ */
+ .circular-menu {
+	position: fixed;
+	bottom: 1em;
+	right: 2em;
+
+}
+
+.circular-menu.circular-menu-left {
+	right: auto;
+	left: 1em;
+  padding: 0px !important;
+  margin: 0px !important;
+
+  .ant-btn-circle.ant-btn-lg{
+    min-width: 60px !important;
+    border-radius: 50% !important;
+    height: 60px;
+
+  }
+	
+}
+
+.ant-drawer-content-wrapper{
+  height: 69px !important;
+  padding: 0px !important;
+
+  margin: 0px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  .ant-drawer-content{
+    background-color: #556270 !important;
+    padding: 0px !important;
+    
+   
+  }
+}
+
+
+.ant-btn-primary{
+  background-color:#228DFF !important;
+  
+}
+

@@ -1,0 +1,37 @@
+.chat {
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
+    background-color: whitesmoke !important;
+    height:100px;
+    width: 100%;
+    min-height: 50vh;
+    max-height: 100vh;
+
+    border: 2px solid black;
+    text-align: start;
+    p{
+        font-size: 1.1em;
+        padding: 0px;
+        color: rgb(33, 67, 180) !important;
+    }
+
+   
+}
+
+.ant-tabs{
+   //background-color: whitesmoke !important;
+    .ant-tabs-tabpane{
+       //background-color: yellow !important;
+        height:70%;
+    }
+}
+
+.ant-form {
+    .ant-input{
+        width: 100%;
+        input{
+            width: 100%;
+        }
+    }
+         
+}

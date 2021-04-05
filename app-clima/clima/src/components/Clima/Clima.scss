@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Train+One&display=swap");
+
+
+.top {
+  //width: 100%;
+  margin-bottom: 10px;
+  /*neon effect*/
+  p {
+    font-size: 2em;
+    margin: 0px 0 0px 0;
+  }
+  a {
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  p:nth-child(1) a {
+    font-size: 1.5em;
+    color: #228dff;
+    font-family: "Train One", cursive;
+  }
+  p:nth-child(1) a:hover {
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+  }
+
+  p a:hover {
+    color: #ffffff;
+  }
+
+  @-webkit-keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+        0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+        0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+    }
+  }
+
+  /*glow for mozilla-keyframes*/
+
+  @-moz-keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+        0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+        0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+    }
+  }
+
+  /*glow*/
+  @keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+        0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+        0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+    }
+  }
+}
+
+.lightSpeedIn {
+  margin: 0px !important;
+  padding: 0px !important;
+  
+  -webkit-animation-name: lightSpeedIn;
+  animation-name: lightSpeedIn;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+
+}
+
+@keyframes lightSpeedIn {
+  0% {
+    -webkit-transform: translate3d(35%, 0, 0) skewX(-30deg);
+    transform: translate3d(35%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+
+
+// .ant-table-wrapper{
+//  // background-color: transparent !important;
+ 
+//   .ant-table-cell{
+//    // background-color: transparent !important;
+//    // border: 0.3px   #228dff !important;
+//   //  color: #559deb;
+//   //color: #fff !important;
+//   }
+//   .ant-table{
+//     //background: rgba( 20, 30, 48, 0.25 );
+
+      
+//   }
+// }
+
+// .ant-card-body {
+//   background: rgba(255, 255, 255, 0.25);
+//   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+//   backdrop-filter: blur(4px);
+//   -webkit-backdrop-filter: blur(4px);
+//   border-radius: 10px;
+//   border: 1px solid rgba(255, 255, 255, 0.18);
+// }
+
+.ant-row {
+  background-color: transparent !important;
+ 
+}
+.ant-statistic {
+  background-color: transparent !important;
+ 
+  .ant-statistic-title{
+    color: #fff !important;
+  }
+}
+.ant-layout {
+  background-color: transparent !important;
+}
+
+.ant-col {
+  background-color: transparent !important;
+ 
+}
